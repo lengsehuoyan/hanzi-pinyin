@@ -1,0 +1,19 @@
+{
+  "name": "hanzi-pinyin",
+  "version": "0.0.1",
+  "description": "汉字转拼音",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pinyin": "^2.9.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.5",
+    "@types/pinyin": "^2.8.1",
+    "typescript": "^3.8.3"
+  }
+}
